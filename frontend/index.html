@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Habits Controller</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="habits-section">
+
+      <h2>Hábitos</h2>
+
+      <div class="habits">
+      </div>
+
+      <h2 class="done-title">Concluídos</h2>
+
+      <div class="habits done-area">
+      </div>
+
+    </div>
+
+    <div class="stats">
+      <h2>Estatísticas</h2>
+
+      <div class="stat-box">
+        <p>Concluídos hoje</p>
+        <strong id="done-today">0</strong>
+      </div>
+
+      <div class="stat-box">
+        <p>Sequência</p>
+        <strong id="streak">0 dias</strong>
+      </div>
+
+    </div>
+
+    <button class="add-btn" id="openAdd">+</button>
+
+    <div class="add-habit-box" id="addBox">
+      <input type="text" placeholder="Novo hábito..." />
+      <button>Adicionar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
