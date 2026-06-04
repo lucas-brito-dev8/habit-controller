@@ -1,4 +1,4 @@
-# 🧠 Habit Controller
+# 🧠 Habit Controller Dashboard
 
 A simple and efficient web application for tracking daily habits, featuring a **streak system** and local persistence.
 
